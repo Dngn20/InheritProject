@@ -1,5 +1,9 @@
 package inherit.controller;
 
-public class InheritController {
-
+public class InheritController 
+{
+	public void start()
+	{
+		
+	}
 }

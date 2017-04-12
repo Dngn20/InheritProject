@@ -4,7 +4,7 @@ import inherit.model.LoudNoises;
 
 public class Hearing implements LoudNoises
 {
-	public double clapVolume(Double decibleLevel)
+	public double noiseVolume(Double decibleLevel)
 	{
 		decibleLevel = decibleLevel;
 		return decibleLevel;

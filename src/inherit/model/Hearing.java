@@ -10,18 +10,6 @@ public class Hearing implements LoudNoises
 		return decibleLevel;
 	}
 	
-	public double quietClap()
-	{
-		double decibleLevel = 109 ;
-		return decibleLevel;
-	}
-	
-	public double loudClap()
-	{
-		double decibleLevel = 112.34534;
-		return decibleLevel;
-	}
-	
 	public double duncanClap()
 	{
 		double decibleLevel = 99999999.99;

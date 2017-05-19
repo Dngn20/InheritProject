@@ -3,6 +3,8 @@ package inherit.view;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -31,9 +33,6 @@ public class InheritPanel extends JPanel
 		this.button1 = new JButton("Button 1");
 		this.button2 = new JButton("Button 2");
 		this.textArea = new JTextArea(25,60);
-		
-		
-		
 		
 		
 		setupListener();
@@ -67,8 +66,25 @@ public class InheritPanel extends JPanel
 
 	public void setupListener()
 	{
+		button1.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent Click)
+			{
+				
+			}
+			
+			
+		});
 		
-		
+		button2.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent Click)
+			{
+				
+			}
+			
+			
+		});
 	}
 	
 

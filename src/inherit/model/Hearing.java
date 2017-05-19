@@ -20,7 +20,7 @@ public class Hearing implements LoudNoises
 	public double shotgunBlast() 
 	{
 		double decibleLevel = 187.96;
-		return 0;
+		return decibleLevel;
 	}
 
 	
@@ -28,7 +28,6 @@ public class Hearing implements LoudNoises
 	{
 		String carHorn = "Beep, Honk, Beep";
 		
-		
-		return null;
+		return carHorn;
 	}
 }
